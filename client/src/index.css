@@ -1,0 +1,13 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 13px;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  padding: 0 20px;
+  min-width: 320px;
+  min-height: 100vh;
+}

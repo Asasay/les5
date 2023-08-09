@@ -1,0 +1,43 @@
+div.inputs-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  gap: 10px;
+  align-items: center;
+}
+
+#typos-number {
+  margin-right: 5px;
+}
+
+#typos-slider {
+  max-width: 500px;
+  flex-grow: 1;
+}
+
+div.scrollable-table-wrapper {
+  max-height: 600px;
+  overflow: auto;
+}
+
+table {
+  line-break: anywhere;
+  border-collapse: collapse;
+}
+
+thead {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+thead tr td {
+  padding-bottom: 10px;
+}
+
+tbody tr td {
+  border: 1px solid grey;
+}
+td {
+  padding: 2px 10px;
+}
