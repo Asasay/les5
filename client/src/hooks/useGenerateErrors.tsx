@@ -68,7 +68,8 @@ export const useGenerateErrors = (
     replacement: string,
     prng1: () => number
   ) {
-    const prng2 = seedrandom((seed * prng1()).toString());
+    const newSeed = (seed ? seed : 228) * prng1();
+    const prng2 = seedrandom(newSeed.toString());
     let result = string;
     if (string.length == 0) return result;
     const typosRand =
